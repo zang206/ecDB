@@ -51,7 +51,7 @@ if(isset($_POST['submit'])) {
 
 	//If there is no error, send the email
 	if(!isset($hasError)) {
-		$emailTo = 'contact@ecdb.net';
+		$emailTo = 'blogadmin@procknation.com';
 		$body = "Name: $name \nEmail: $email \nUsername: $username \n\nSubject: $subject \n\nMessage:\n$comments";
 		$headers = 'From: ecDB - Contact form <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
