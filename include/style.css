@@ -5,7 +5,7 @@
 */
 form textarea,
 form input,
-form select{border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;padding:6px;font: normal 13px "Century Gothic", arial, sans-serif;border:1px solid #ccc; /* #fff */border-bottom:1px solid #ccc;resize:none;background-color:#fafafa;}
+form select{border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;padding:6px;font: normal 13px "Courier New", Courier, monospace;border:1px solid #ccc; /* #fff */border-bottom:1px solid #ccc;resize:none;background-color:#fafafa;}
 	form textarea:focus,
 	form input:focus,
 	form select:focus{background-color:#fdfdfd;}
